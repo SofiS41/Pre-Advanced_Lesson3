@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.choose-maker{
+    width: 500px; 
+    margin: 50px;
+    padding: 30px 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+h2.title{
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #212121;
+}
+.machine{
+    font-size: 17px;
+    color: #333;
+}
+.types{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.type{
+    padding: 5px 20px;
+    background-color: #52A713;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.type:hover{
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.5));
+    transform: scale(1.2);
+}
